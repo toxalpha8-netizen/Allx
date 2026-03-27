@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🔞</title>
 
+<!-- Preview -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="🔞 Not for everyone...">
+<meta name="twitter:description" content="This 18+ clip is going viral right now 👀">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/toxalpha8-netizen/Allx/main/preview.jpg">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="🔞 Not for everyone...">
+<meta property="og:description" content="This 18+ clip is going viral right now 👀">
+<meta property="og:image" content="https://raw.githubusercontent.com/toxalpha8-netizen/Allx/main/preview.jpg">
+
+<script>
+  var links = [
+    "https://getmysocial.com/andhannah",
+    "https://getmysocial.com/lantmadison",
+    "https://getmysocial.com/vichannah",
+    "https://getmysocial.com/diegmadison",
+    "https://getmysocial.com/nanhannah"
+  ];
+
+  var index = localStorage.getItem("rotIndex");
+  if(index === null) index = 0;
+  else index = parseInt(index);
+
+  var selectedLink = links[index];
+
+  var nextIndex = (index + 1) % links.length;
+  localStorage.setItem("rotIndex", nextIndex);
+
+  // ⏱️ délai optimal universel
+  setTimeout(function(){
+    window.location.href = selectedLink;
+  }, 1800);
+</script>
+
+<style>
+  body { margin:0; background:#000; }
+</style>
+
+</head>
+<body></body>
+</html>
